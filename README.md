@@ -1,12 +1,14 @@
 # Up_Down_Counter
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-
-![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
-![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+## Specifications:
+ 5-bit counter 
+ Count Value loaded from "IN" port on a positive clock 
+edge when "Load" signal is high, Load has highest priority 
+ Count value incremented by 1 on a positive clock edge 
+when "Up" signal is high. 
+ Count value decremented by 1 on a positive clock edge 
+when "Down" signal is high, Down has higher priority than 
+"Up" signal 
+ Increment stops at 31 
+ Decrement stops at 0 
+ "High" flag active high whenever count value is 31 
+ "Low" flag active high whenever count value is 0

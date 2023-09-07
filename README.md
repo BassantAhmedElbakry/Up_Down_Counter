@@ -12,3 +12,7 @@ when "Down" signal is high, Down has higher priority than
 * Decrement stops at 0 
 * "High" flag active high whenever count value is 31 
 * "Low" flag active high whenever count value is 0
+
+ ![WhatsApp Image 2023-09-07 at 14 30 45](https://github.com/BassantAhmedElbakry/Up_Down_Counter/assets/104600321/e9226cdd-7fbd-4a87-907d-19339037fd71)
+
+ 
